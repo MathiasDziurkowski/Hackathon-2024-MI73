@@ -16,6 +16,7 @@ import java.util.NoSuchElementException;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/meme")
+@CrossOrigin("*")
 public class MemeController {
     private MemeService memeService;
 
